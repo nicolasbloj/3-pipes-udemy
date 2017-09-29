@@ -5,6 +5,12 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html'
 })
 export class AppComponent {
+
+  // domseguro
+  video = 'BJ8zvOVteJY';
+
+
+
   nombre = 'nicolas';
   nombre2 = 'nicolas aRon bLoJ';
   arreglo: string[] = ['NICOLAS', 'PEDRO', 'JUAN', 'JORGE'];
