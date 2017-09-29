@@ -1,3 +1,4 @@
+import { PasswordPipe } from './pipes/password.pipe';
 import { BrowserModule } from '@angular/platform-browser';
 import {  NgModule } from '@angular/core';
 
@@ -13,7 +14,8 @@ import { DomseguroPipe } from './pipes/domseguro.pipe';
   declarations: [
     AppComponent,
     CapitalizadoPipe,
-    DomseguroPipe
+    DomseguroPipe,
+    PasswordPipe
   ],
   imports: [
     BrowserModule

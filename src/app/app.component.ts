@@ -9,7 +9,7 @@ export class AppComponent {
   // domseguro
   video = 'BJ8zvOVteJY';
 
-
+  activar: true;
 
   nombre = 'nicolas';
   nombre2 = 'nicolas aRon bLoJ';

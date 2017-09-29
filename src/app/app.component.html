@@ -134,6 +134,15 @@
             <td>{{ nombre2 | capitalizado }}</td>
         </tr>
 
+        <tr>
+            <td>{{nombre}}</td>
+            <td>password:{{activar}}</td>
+            <td>{{ nombre | password:activar }}</td>
+            <td><button (click)="this.activar = ! this.activar;">Activar</button></td>
+        </tr>
+
+
+
     </tbody>
 </table>
 
